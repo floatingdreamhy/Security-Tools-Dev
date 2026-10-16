@@ -1,2 +1,15 @@
 # Security-Tools-Dev
-A repository for my custom security tools and scripts.
+
+这是我个人开发的安全工具与脚本集合，用于辅助渗透测试与红队实战。
+
+## 🛠️ 工具列表
+
+### 1. Python 端口扫描器 (port_scanner.py)
+- **功能**：基于多线程的 TCP 端口扫描器，可快速探测目标主机的开放端口。
+- **技术栈**：Python `socket` 库 + `threading` 多线程。
+- **用法**：`python port_scanner.py`（默认扫描 127.0.0.1 的 1-1024 端口）
+
+## 🚀 后续规划
+- 添加自定义目标 IP 和端口范围功能
+- 集成服务版本探测
+- 输出结果到文件
