@@ -3,7 +3,7 @@ import threading
 from queue import Queue
 
 # 设置目标（请确保你拥有对以下目标的测试授权！）
-TARGET_URL = "http://192.168.100.140/DVWA" 
+TARGET_URL = "http://www.baidu.com" 
 # 这是一个非常经典的、用于合法渗透测试学习的靶场
 
 # 常见的目录和文件字典（这里只列出几个，实际使用时字典会非常大）
